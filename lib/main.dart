@@ -130,7 +130,7 @@ class BubbleState extends State<Bubble> {
       highlightColor: Colors.transparent,
       onTap: () async {
         if (!compress) {
-          Vibration.vibrate(amplitude: 1, duration: 30);
+          Vibration.vibrate(duration: 30);
           compress = true;
           if (mounted) {
             setState(() {});
