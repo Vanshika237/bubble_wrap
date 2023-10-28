@@ -13,13 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Pop It!',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        backgroundColor: background,
-      ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
